@@ -1,0 +1,44 @@
+.header-nav-key{
+    padding: 10px;
+    letter-spacing: 1ch;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.header-nav-key:hover{
+    color: red;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4); 
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    opacity: 0.9;
+}
+.drop-down{
+    float: right;
+}
+.header-name{
+    display: flex;
+    flex-direction: row;
+}
+.header-sub{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 700px)
+{
+    .header {
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    }
+    .header-nav-key{
+        margin: 0 auto;
+    }
+}              

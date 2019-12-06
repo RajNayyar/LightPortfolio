@@ -1,0 +1,115 @@
+.timeline{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    max-width: 1280px;
+    margin: 50px auto;
+    padding: 20px 0 20px 0;
+}
+.timeline-heading-container
+{
+    text-align: center;   
+}
+p{
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.timeline-component-container{
+    width: 95%;
+    margin: 30px auto;
+    
+}
+.timeline-container-left{
+    border-right: 1px solid;
+    width: 50.1%;
+}
+.timeline-sub-heading-left{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.74);
+    margin-right: 20px;
+    color: white;
+}
+.timeline-content-left{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.year-left{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: right;
+}
+.timeline-container-right{
+    border-left: 1px solid;
+    width: 50%;
+    margin-left: 50.1%;
+}
+.timeline-sub-heading-right{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.74);
+    margin-left: 20px;
+    color: white;
+}
+.timeline-content-right{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.year-right{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 20px;
+}
+@media screen and (max-width: 600px) {
+    .timeline-component-container{
+        width: 100%;
+    }
+    .timeline-container-right{
+        border-left: 1px solid;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .timeline-content-left{
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top:10px;
+    }
+    .timeline-content-right{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .timeline-container-left{
+        border-left: 1px solid;
+        width: 90%;
+        margin: 0 auto;
+        border-right: 0px solid;
+        margin-top: 20px;
+    }
+    .timeline-sub-heading-left
+    {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    .timeline-sub-heading-right
+    {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .year-right{
+        font-family: sans-serif;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .year-left{
+        font-family: sans-serif;
+        font-weight: lighter;
+        text-align: left;
+    }
+  }
